@@ -1,0 +1,18 @@
+POST /api/v1/products
+Content-Type: multipart/form-data
+Authorization: Bearer <token>
+
+[form-data]
+image: (file)
+
+
+
+
+name: Product Name
+description: Product Description
+price: 99.99POST /api/v1/users/profile/picture
+Content-Type: multipart/form-data
+Authorization: Bearer <token>
+
+[form-data]
+image: (file)
